@@ -8,5 +8,7 @@ window.onload = function (){
             console.log(x);
         }
     }
+
+    console.log(x);
 }
 
