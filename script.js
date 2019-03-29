@@ -1,11 +1,10 @@
 window.onload = function (){
     
-    var nums = [3,5,70];
-    
-function addNums(a,b,c) {
-    console.log(a+b+c);
-}
+    function logNinja(name,age){
+        console.log("my name is " + name + "and my age is " + age);
 
-addNums(..nums);
+    }
+
+    logNinja("Ryu", 24)
 }
 
