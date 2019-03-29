@@ -1,9 +1,13 @@
 window.onload = function (){
  
- var ninjas = ["shawn", "cry", "yoshi", "ryu", "ryu", "yoshi"];
+function gen() {
+    console.log("pear");
+    console.log("banana");
+    console.log("apple");
 
- var refinedNinjas = new Set(ninjas);
- console.log(refinedNinjas);
- ninjas = [...refinedNinjas];
- console.log(ninjas)
+    
+}
+
+gen();
+
 }
