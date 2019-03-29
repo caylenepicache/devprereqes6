@@ -3,10 +3,9 @@ window.onload = function (){
     var ninja = {
         name: "Ryu",
         chop(x) {
-            var _this = this;
-            window.setInterval(function(){
+            window.setInterval(() => {
                 if(x>0) {
-                    console.log(_this.name + " chopped enemy");
+                    console.log(this.name + " chopped enemy");
                     x--;
                 }
             }, 1000);
