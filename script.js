@@ -1,9 +1,9 @@
 window.onload = function (){
  
-    var ninjaGreeting = () => {
-        console.log("hiiiiya");
+    var ninjaGreeting = (name) => {
+        console.log('${name} says hi');
 
     };
 
-    ninjaGreeting();
+    ninjaGreeting("Mark");
 }
