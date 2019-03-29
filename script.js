@@ -1,12 +1,9 @@
 window.onload = function (){
  
- var names = new Set ();
+ var ninjas = ["shawn", "cry", "yoshi", "ryu", "ryu", "yoshi"];
 
- names.add("Shaun").add("Ryu").add("Crystal");
- names.delete("Crystal")
- names.clear();
- console.log(names.has("Crystal"))
- console.log(names.size);
-
- console.log(names);
+ var refinedNinjas = new Set(ninjas);
+ console.log(refinedNinjas);
+ ninjas = [...refinedNinjas];
+ console.log(ninjas)
 }
