@@ -1,10 +1,12 @@
 window.onload = function (){
     
-    function logNinja(name,age){
-        console.log('my name is ${name} and my age is ${age}');
+    var name = "Crystal";
+    var belt = "Black";
+    var ninja = {
+        name: name,
+        belt: belt
+    };
 
-    }
-
-    logNinja("Ryu", 24)
+    console.log(ninja.name);
 }
 
